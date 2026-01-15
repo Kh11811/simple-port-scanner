@@ -57,7 +57,7 @@ Run the script directly from the terminal. The script requires two arguments: th
 ### Syntax
 
 ```bash
-python3 scanner.py <TARGET_HOST> <MAX_PORT>
+python3 portscan.py <TARGET_HOST> <MAX_PORT>
 
 ```
 
@@ -66,14 +66,14 @@ python3 scanner.py <TARGET_HOST> <MAX_PORT>
 **Scan a local server for ports 1 to 100:**
 
 ```bash
-python3 scanner.py 127.0.0.1 100
+python3 portscan.py 127.0.0.1 100
 
 ```
 
 **Scan a remote IP for ports 1 to 1024:**
 
 ```bash
-python3 scanner.py 192.168.1.5 1024
+python3 portscan.py 192.168.1.5 1024
 
 ```
 
