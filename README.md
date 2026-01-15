@@ -37,7 +37,7 @@ python --version
 
 1. **Clone the repository** (or download the script):
 ```bash
-git clone [https://github.com/your-username/port-scanner.git](https://github.com/your-username/port-scanner.git)
+git clone [https://github.com/Kh11811/simple-port-scanner.git](https://github.com/Kh11811/simple-port-scanner.git)
 
 ```
 
