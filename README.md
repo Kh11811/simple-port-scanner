@@ -28,7 +28,7 @@ A lightweight, zero-dependency command-line network scanner built in Python. Thi
 Ensure you have Python installed on your system.
 
 ```bash
-python --version
+python3 --version
 # Should return Python 3.x
 
 ```
@@ -57,7 +57,7 @@ Run the script directly from the terminal. The script requires two arguments: th
 ### Syntax
 
 ```bash
-python scanner.py <TARGET_HOST> <MAX_PORT>
+python3 scanner.py <TARGET_HOST> <MAX_PORT>
 
 ```
 
@@ -66,14 +66,14 @@ python scanner.py <TARGET_HOST> <MAX_PORT>
 **Scan a local server for ports 1 to 100:**
 
 ```bash
-python scanner.py 127.0.0.1 100
+python3 scanner.py 127.0.0.1 100
 
 ```
 
 **Scan a remote IP for ports 1 to 1024:**
 
 ```bash
-python scanner.py 192.168.1.5 1024
+python3 scanner.py 192.168.1.5 1024
 
 ```
 
@@ -92,6 +92,3 @@ port 443 is open
 
 > This tool is intended for **educational purposes** and **authorized security auditing** only.
 > Scanning networks or systems without the explicit permission of the owner is illegal in many jurisdictions and may violate your Internet Service Provider's Terms of Service. The author and contributors of this project accept no responsibility for unauthorized or malicious use of this software.
-
-
-**Would you like me to generate a `LICENSE` file text (like MIT or Apache) to go along with this?**
