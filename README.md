@@ -37,14 +37,14 @@ python --version
 
 1. **Clone the repository** (or download the script):
 ```bash
-git clone [https://github.com/Kh11811/simple-port-scanner.git](https://github.com/Kh11811/simple-port-scanner.git)
+git clone https://github.com/Kh11811/simple-port-scanner
 
 ```
 
 
 2. **Navigate to the directory**:
 ```bash
-cd port-scanner
+cd simple-port-scanner
 
 ```
 
